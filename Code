@@ -1,0 +1,13 @@
+import webbrowser
+import time
+
+istorijos_savokos = [
+    "koekvacija,,,,,",
+    "privilegija,",
+    "rusifikacija,",
+]
+
+for savoka in istorijos_savokos:
+    url = f"https://www.google.com/search?q={savoka}+reiksme"
+    webbrowser.open(url)
+    time.sleep(1)
